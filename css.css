@@ -1,0 +1,224 @@
+@font-face {
+    font-family: cool;
+    src: url(Fonts/cool.woff2);
+}
+
+body { overflow-x: hidden;}
+head {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav  {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+
+  }
+
+  .Dames a{    
+    
+    float: left;
+    list-style: none;
+    position: relative;
+    display: block;
+    font-family: cool;
+    color: #222;
+    font-size: 20px;
+    padding: 22px 25px;
+    text-decoration: none;
+
+    
+    
+  }
+  
+
+  .Heren a{
+
+    float: left;
+    list-style: none;
+    position: relative;
+    display: block;
+    font-family: cool;
+    color: #222;
+    font-size: 20px;
+    padding: 22px 30px;
+    text-decoration: none;
+  }
+
+.Kinderen a{
+
+ float: left;
+    list-style: none;
+    position: relative;
+    display: block;
+    font-family: cool;
+    color: #222;
+    font-size: 20px;
+    padding: 22px 30px;
+    text-decoration: none;
+  }
+
+
+  .Baby a{
+    float: left;
+    list-style: none;
+    position: relative;
+    display: block;
+    font-family: cool;
+    color: #222;
+    font-size: 20px;
+    padding: 22px 30px;
+    text-decoration: none;
+  }
+
+
+  .Beauty a{
+    float: left;
+    list-style: none;
+    position: relative;
+    display: block;
+    font-family: cool;
+    color: #222;
+    font-size: 20px;
+    padding: 22px 30px;
+    text-decoration: none;
+  }
+
+
+  .Wonen a{
+    float: left;
+    list-style: none;
+    position: relative;
+    display: block;
+    font-family: cool;
+    color: #222;
+    font-size: 20px;
+    padding: 22px 30px;
+    text-decoration: none;
+  }
+ 
+  .Tuin a{
+    float: left;
+    list-style: none;
+    position: relative;
+    display: block;
+    font-family: cool;
+    color: #222;
+    font-size: 20px;
+    padding: 22px 30px;
+    text-decoration: none;
+  }
+
+  .Huishouden a{
+    float: left;
+    list-style: none;
+    position: relative;
+    display: block;
+    font-family: cool;
+    color: #222;
+    font-size: 20px;
+    padding: 22px 30px;
+    text-decoration: none;
+}
+
+.Elektronica a{ 
+    float: left;
+    list-style: none;
+    position: relative;
+    display: block;
+    font-family: cool;
+    color: #222;
+    font-size: 20px;
+    padding: 22px 30px;
+    text-decoration: none;
+}
+
+.Speelgoed a{
+    float: left;
+    list-style: none;
+    position: relative;
+    display: block;
+    font-family: cool;
+    color: #222;
+    font-size: 20px;
+    padding: 22px 30px;
+    text-decoration: none;
+}
+
+    .Sport a{
+        float: left;
+    list-style: none;
+    position: relative;
+    display: block;
+    font-family: cool;
+    color: #222;
+    font-size: 20px;
+    padding: 22px 30px;
+    text-decoration: none;
+    }
+
+    .Cadeaus a{
+        float: left;
+    list-style: none;
+    position: relative;
+    display: block;
+    font-family: cool;
+    color: #222;
+    font-size: 20px;
+    padding: 22px 30px;
+    text-decoration: none;
+    }
+
+    .Sale  a{
+        float: left;
+    list-style: none;
+    position: relative;
+    display: block;
+    font-family: cool;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    padding: 22px 30px;
+    text-decoration: none;
+    }
+
+div.logo{
+  content: url(Afbeeldingen/logo.gif);
+  height: 40px;
+ padding-left: 290px;
+  
+}
+
+
+  
+ 
+  
+  /*balk*/
+  nav[id=main]{
+    border-bottom: inset;
+    border-color: grey;
+    padding-top: 10px;
+    padding-right: 1000px;
+    padding-left: 287px;
+    margin: -12px;
+    width: max-content;
+    height: 60px;
+  }
+    nav[id=secondary]{
+text-align: right;
+font-family: cool;
+    }
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
+    li{
+      display: inline;
+
+    
+    }
+    
+  
+  
+  
