@@ -1,22 +1,11 @@
-@font-face {
-    font-family: cool;
-    src: url(Fonts/cool.woff2);
-  
-   
-}
+@font-face {font-family: cool2; src: url(Fonts/cool2.woff2);}
 
-  
 body { overflow-x: hidden;}
 
+head {margin: 0; padding: 0;}
 
-
-head {
-    margin: 0;
-    padding: 0;
-  }
+li{display: inline;}
   
-
-
 
 
 
@@ -26,65 +15,79 @@ head {
   list-style: none;
   position: relative;
   display: block;
-  font-family: cool;
+  font-family: cool2;
   color: #222;
-  font-size: 12px;
-  padding: 18px 25px;
+  font-size: 16px;
+  padding: 10px 16px;
   text-decoration: none;
-   display: inline;
+  display: inline;
 }
-
-
-div.logo{
-  content: url(Afbeeldingen/logo.gif);
-
-  height: 41px;
-padding: 10px;
-  
- padding-left: 345px;
-
-}
-
-  nav[id=main]{
-    position: absolute;
-   text-align: center;
-    border-bottom: inset;
-    border-color:#f3eeee;
-    padding-top: 0px;
-    padding-right: 1000px;
-    padding-left: 305px;
-    margin: -16px;
-    width: max-content;
-    height: 60px;
+.Rechtsboven a{
+padding-top: 10px;
+  padding-left: 20px;
+  font-family: cool2;
+  text-decoration: none;
+  font-size: 12px;
+    padding: 6px 10px;
+    color: #222;  
   }
-  .Sale a {
+ 
+.Sale a {
   float: left;
   list-style: none;
   position: relative;
   display: block;
-  font-family: cool;
+  font-family: cool2;
   color: red;
-  font-size: 12px;
-  padding: 18px 26px;
+  font-size: 16px;
+  padding: 10px 16px;
   text-decoration: none;
-   display: inline;
+  display: inline;
 }
-  
-    nav[id=secondary]{
+
+.info{
+
+  letter-spacing: 65px;
+  padding: 6px;
+padding-left: 62px;
+text-align: left;
+display: block;
+position: relative;
+display: flex;
+}
+
+div.logo{
+content: url(Afbeeldingen/logo.gif);
+height: 41px;
+padding: 10px;
+padding-left: 345px;
+
+}
+
+  nav[id=main] {
+ position: absolute;
+ text-align: center;
+border-bottom: inset;
+border-color:#f3eeee;
+padding-top: 0px;
+padding-right: 1200px;
+padding-left: 262px;
+margin: -16px;
+width: max-content;
+height: 60px;
+}
+ 
+ 
+nav[id=secondary]{
 text-align: right;
-font-family: cool;
-margin-top: -43px;
-margin-right: 335px;
-    }
+margin-top: -56px;
+margin-right: 330px;
+margin-left: 1221px;
+font-family: cool2;
 
-.Rechtsboven{
-
-  font-size: 9px;
-  padding: 12px;
-
-
-  
 }
+
+
 
 
     li{
