@@ -1,128 +1,310 @@
-@font-face {font-family: cool2; src: url(Fonts/cool2.woff2);}
-
-body { overflow-x: hidden;}
-
-head {margin: 0; padding: 0;}
-
-li{display: inline;}
-  
-
-.grid-container{
-  padding-top: 167px;
-  padding-left: 722px;
-  width: 800px;
-  display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-gap: 10px;
-
-
-}
-
-.grid-item > img {
-  margin-top: 100px;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-top: 1px solid #f3eeee;
-  border-left: 1px solid #f3eeee;
-  border-right: #f50e0e;
-}
-.prijs1{
- font-size: 100px;
-}
-
-
-.NAV a{
-  
-  float: left;
-  list-style: none;
-  position: relative;
-  display: block;
+@font-face {
   font-family: cool2;
-  color: #222;
-  font-size: 16px;
-  padding: 10px 16px;
-  text-decoration: none;
+  src: url(Fonts/cool2.woff2);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html,
+body {
+  margin: 0; /* Space from this element (entire page) and others*/
+  padding: 0; /*space from content and border*/
+  border-top: 0.5px solid rgb(255, 0, 0);
+}
+
+head {
+  margin: 0;
+  padding: 0;
+}
+
+li {
   display: inline;
 }
-.Rechtsboven a{
-padding-top: 10px;
-  padding-left: 20px;
+
+/*  De Grid */
+
+/*  De Grid */
+
+div.logo {
+  content: url(Afbeeldingen/logo.gif);
+  height: 41px;
+  padding: 10px;
+  padding-left: 345px;
+  z-index: -1;
+}
+
+/*  De Nav bar */
+
+.Menu {
+  text-align: center;
+  border-bottom: 0.5px inset;
+  border-color: #f3eeee;
+}
+.Menu ul {
+  padding-right: 63px;
+  font-size: 12;
+  display: inline-flex;
+  list-style: none;
+  color: rgb(0, 0, 0);
   font-family: cool2;
+}
+.Menu ul li {
+  width: 95px;
+  margin: 1px;
+  padding: 0px 0px 0px;
+}
+
+.Menu ul li a {
+  border-radius: 28px;
   text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.Menu ul a:hover {
+  color: grey;
+}
+.Menu ul li a {
+  display: inline-block;
+  position: relative;
+}
+
+.Damess {
+  display: none;
+}
+
+.Menu ul li:hover .Damess {
+  display: block;
+  margin-top: -30px;
+}
+
+.Menu ul li:hover .Damess ul {
+  position: absolute;
+  background-color: white;
+  display: block;
+  margin: 10px;
+  padding-top: 50px;
+}
+
+.Menu ul li:hover .Damess ul li {
+  display: block;
+  margin-left: -20px;
+
   font-size: 12px;
-    padding: 6px 10px;
-    color: #222;  
-  }
- 
-.Sale a {
-  float: left;
-  list-style: none;
-  position: relative;
+  text-align: left;
+}
+.Damess ul li a:hover {
+  text-decoration: underline;
+}
+
+.Lingerie {
+  margin-top: -600px;
+  padding-left: 220px;
+  white-space: nowrap;
+  background-color: white;
+}
+
+.schoenen {
+  padding-left: 220px;
+}
+
+.Sportmode {
+  padding-left: 220px;
+}
+
+.accessoires {
+  margin-top: -595px;
+  padding-left: 400px;
+}
+.Beauty {
+  padding-left: 400px;
+}
+.Speciaal {
+  padding-left: 600px;
+  margin-top: -530px;
+
+  white-space: nowrap;
+}
+
+.uitgelicht {
+  padding-left: 600px;
+}
+
+.ontdekken {
+  padding-left: 600px;
+}
+
+/* einde  Dames */
+
+/* nav bar*/
+.heren {
+  background-color: white;
+}
+.heren {
+  display: none;
+}
+
+.Menu ul li:hover .heren {
   display: block;
-  font-family: cool2;
-  color: red;
-  font-size: 16px;
-  padding: 10px 16px;
+  margin-top: -30px;
+}
+
+.Menu ul li:hover .heren ul {
+  position: absolute;
+  background-color: white;
+  display: block;
+  margin: 10px;
+  padding-top: 50px;
+}
+
+.Menu ul li:hover .heren ul li {
+  margin-left: -117px;
+  display: block;
+  margin-right: 200px;
+
+  font-size: 12px;
+  text-align: left;
+}
+/* nav bar*/
+
+.heren .schoenen {
+  margin-top: -475px;
+}
+
+.heren .sportmode {
+  margin-left: 220px;
+}
+.heren .ondergoed {
+  margin-top: -535px;
+  margin-left: 450px;
+  white-space: nowrap;
+}
+
+.heren .accessoires {
+  margin-top: -5px;
+  margin-left: 50px;
+  white-space: nowrap;
+  background-color: white;
+}
+
+.heren .Speciaall {
+  margin-top: -535px;
+  margin-left: 650px;
+  white-space: nowrap;
+}
+
+.heren .uitgelicht2 {
+  margin-left: 650px;
+}
+
+/* einde  Nav bar */
+
+.MenuR {
+  align-content: center;
+  text-align: right;
+  margin-top: -100px;
+  position: relative;
+}
+.MenuR ul a {
+  margin-right: 9px;
   text-decoration: none;
-  display: inline;
+  font-family: cool2;
+  font-size: 9px;
+}
+.MenuR ul {
+  padding-top: 19px;
+  padding-right: 37vh;
 }
 
-.info{
-
-  letter-spacing: 65px;
-  padding: 6px;
-padding-left: 62px;
-text-align: left;
-display: block;
-position: relative;
-display: flex;
+.griddy .column .img {
+  width: 250px;
 }
 
-div.logo{
-content: url(Afbeeldingen/logo.gif);
-height: 41px;
-padding: 10px;
-padding-left: 345px;
-
+.red {
+  color: red !important;
 }
 
-  nav[id=main] {
- position: absolute;
- text-align: center;
-border-bottom: inset;
-border-color:#f3eeee;
-padding-top: 0px;
-padding-right: 1200px;
-padding-left: 262px;
-margin: -16px;
-width: max-content;
-height: 60px;
-}
- 
- 
-nav[id=secondary]{
-text-align: right;
-margin-top: -56px;
-margin-right: 330px;
-margin-left: 1221px;
-font-family: cool2;
-
+.grey {
+  text-decoration: line-through;
+  color: grey;
 }
 
-nav[id=main] a:hover{
-  color: rgb(255, 7, 7);
-  border-bottom: 2px solid #000;
-  border-left: 20px;
- 
+.griddy {
+  margin-top: 204px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 750px;
+  margin-left: 345px;
 }
 
-    li{
-      display: inline;
+.column {
+  margin: 10px;
+  border: solid 1px #f3eeee;
+}
 
-    
-    }
-    
-  
-  
-  
+.select {
+  margin-left: 226px;
+  padding: 10px;
+  padding-right: 75px;
+  border: solid 1px #f3eeee;
+  margin-bottom: 50px;
+}
+
+.sale {
+  background-color: red;
+  color: white;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.duurzamer {
+  background-color: #f6fcf2;
+  color: #3bda36;
+  padding: 2px;
+}
+
+.korting {
+  background-color: #fcf2f2;
+  color: red;
+  padding: 2px;
+}
+
+.WHD {
+  background-color: midnightblue;
+  color: white;
+  font-size: 12px;
+  padding: 5px;
+  margin-left: 70px;
+  text-align: center;
+  position: relative;
+}
+
+.WHD2 {
+  font-size: 20px;
+  text-align: center;
+  font-family: "wehkamp_font2";
+  color: midnightblue;
+}
+
+.btn {
+  border: solid 1px midnightblue;
+  background-color: white;
+  font-family: "cool2";
+  margin-left: 70px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-top: 100px;
+}
+.body-text {
+  font-family: "cool2";
+  padding-left: 15%;
+  padding-top: 2%;
+  padding-right: 15%;
+}
+
+.body-text2 {
+  font-family: "cool2";
+}
+/* einde icons bar */
